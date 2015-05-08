@@ -2,6 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  transform: scale(0.75);
 }
 
 .table {
@@ -30,5 +31,5 @@ html, body {
 }
 
 .above-window {
-    transform: translateY(-110%);
+    transform: translateY(-200%);
 }
