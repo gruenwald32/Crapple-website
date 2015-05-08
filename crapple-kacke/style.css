@@ -23,8 +23,12 @@ html, body {
   background-position: center center;
 }
 
-.kacke {
-  transform: translateY(-110%);
+#kacke {
   transition-duration: 1s;
   transition-delay: 1s;
+  background-image: url('kacke.png');
+}
+
+.above-window {
+    transform: translateY(-110%);
 }
