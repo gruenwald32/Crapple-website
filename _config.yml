@@ -1,0 +1,30 @@
+exclude:
+- README.md
+
+gems:
+  - jekyll-sitemap
+  - jemoji
+
+timezone: Europe/Berlin
+
+title: CrApple
+
+paginate: 5
+
+paginate_path: "/blog/:num"
+
+permalink: /blog/:year-:month-:day-:title/index.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
