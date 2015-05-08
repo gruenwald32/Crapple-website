@@ -24,22 +24,26 @@ html, body {
   transition-duration: 1s;
 }
 
-.hidden {
-  display: none;
-}
-
-.above-window {
+.kacke-0 {
     transform: translateY(-110%);
 }
 
-#crapple-normal {
+.kacke-1 {
+  transform: rotate(180deg);
+}
+
+.kacke-2 {
+    transform: rotate(180deg) translateY(-110%);
+}
+
+.crapple-0 {
   background-image: url('crapple-normal.png');
+}
+
+.crapple-1 {
+  background-image: url('crapple-arsch.png');
 }
 
 #kacke {
   background-image: url('kacke.png');
-}
-
-#crapple-arsch {
-  background-image: url('crapple-arsch.png');
 }
