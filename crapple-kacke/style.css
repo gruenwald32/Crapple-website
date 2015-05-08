@@ -21,14 +21,25 @@ html, body {
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  transition-duration: 1s;
 }
 
-#kacke {
-  transition-duration: 1s;
-  transition-delay: 1s;
-  background-image: url('kacke.png');
+.hidden {
+  display: none;
 }
 
 .above-window {
     transform: translateY(-110%);
+}
+
+#crapple-normal {
+  background-image: url('crapple-normal.png');
+}
+
+#kacke {
+  background-image: url('kacke.png');
+}
+
+#crapple-arsch {
+  background-image: url('crapple-arsch.png');
 }
