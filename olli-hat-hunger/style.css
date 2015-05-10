@@ -1,0 +1,43 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition-duration: 1s;
+}
+
+.kacke-0 {
+    transform: translateY(-110%);
+}
+
+.crapple-0 {
+  background-image: url('crapple-normal.png');
+}
+
+.crapple-1 {
+  transform: rotate(180deg);
+  background-image: url('crapple-arsch.png');
+}
+
+#kacke {
+  background-image: url('kacke.png');
+}
