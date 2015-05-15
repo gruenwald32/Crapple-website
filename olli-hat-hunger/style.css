@@ -3,6 +3,11 @@ html, body {
   margin: 0;
 }
 
+.preload {
+  background-repeat: no-repeat;
+  background-position: -1000% -1000%;
+}
+
 .image {
   background-repeat: no-repeat;
   background-position: center center;
@@ -25,7 +30,25 @@ html, body {
 }
 
 #arm.move {
-  transform: rotate(120deg);
-  top: 60px;
+  transform: rotate(110deg);
+  top: 80px;
   left: 340px;
+}
+
+#crapple {
+  transform: rotate(0deg) scale(0.5);
+  transition-duration: 0s;
+  width: 220px;
+  height: 271px;
+  position: absolute;
+  top: 210px;
+  left: -56px;
+}
+
+#crapple.crapple-0 {
+  background-image: url('crapple-normal.png');
+}
+
+#crapple.crapple-1 {
+  background-image: url('crapple-doppelt.png');
 }
