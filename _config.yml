@@ -9,12 +9,6 @@ timezone: Europe/Berlin
 
 title: CrApple
 
-paginate: 5
-
-paginate_path: "/blog/:num"
-
-permalink: /blog/:year-:month-:day-:title/index.html
-
 defaults:
   -
     scope:
