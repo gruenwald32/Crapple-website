@@ -23,3 +23,9 @@ html, body {
   top: 210px;
   left: 480px;
 }
+
+#arm.move {
+  transform: rotate(120deg);
+  top: 60px;
+  left: 340px;
+}
